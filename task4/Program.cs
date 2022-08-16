@@ -2,12 +2,11 @@
 
 Console.Write("Введите число: ");
 int n = int.Parse(Console.ReadLine());
-int count = 0;
-int i = 1;
-while (count < n);
+int count = 1;
+while (count <= n);
 {
-    int result = i*i;
+    int result = count*count;
     Console.Write(result + " ");
     count++;
-    i++;
+    
 }
